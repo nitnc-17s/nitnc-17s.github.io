@@ -1,0 +1,47 @@
+
+*{
+    box-sizing: border-box;
+    line-height: 1.428571429;
+}
+
+p{
+    margin: 0 0 10px;
+}
+
+body{
+    background: hsl(144, 77%, 88%);
+    margin: 0;
+}
+
+header{
+    background: hsl(77, 77%, 77%);
+    padding: 24px;
+    height: 144px;
+    box-sizing: border-box;
+}
+
+section{
+    background: hsl(177, 77%, 77%);
+    padding: 24px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.sectionH1{
+    margin: 0;
+}
+
+footer{
+    bottom: 0;
+    color: white;
+    background: hsl(177, 55%, 11%);
+    padding: 24px;
+    display: flex;
+    height: auto;
+    min-height: 120px;
+}
+
+div#bin{
+    float: left;
+    width: 50%;
+}
